@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Product>Uma Musume Mod Loader (UMML)</Product>
+    <AssemblyTitle>UMML</AssemblyTitle>
+    <FileVersion>2.0.0.0</FileVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-base" Version="1.9.172" />
+    <PackageReference Include="SQLite3MC.PCLRaw.bundle" Version="2.3.5" />
+    <PackageReference Include="AssetsTools.NET" Version="3.0.5" />
+  </ItemGroup>
+
+</Project>
